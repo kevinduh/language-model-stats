@@ -14,7 +14,7 @@ Google | t5 | [Raffel 2020](https://arxiv.org/pdf/1910.10683.pdf) | Enc-Dec | C4
 Google | XLNet | [Yang 2019](https://arxiv.org/pdf/1906.08237.pdf) | Dec | Books, Wikipedia, ClueWeb, CommonCrawl | 33 | 0.4 | 512 TPU v3 chips for 5 days | Mask, Permutation LM
 EleutherAI | GPTNeo | [Black 2021](https://github.com/EleutherAI/gpt-neo) | Dec | The Pile | 420 | 2.7 | ? | AR
 
-## Monolingual Models
+## Multilingual Models
 
 
 
