@@ -1,1 +1,6 @@
 theme: jekyll-theme-slate
+baseurl: ""
+title: Language Model Stats
+description: ""
+url: ""
+repository: kevinduh/language-model-stats.github.io
