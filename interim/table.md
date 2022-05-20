@@ -1,8 +1,3 @@
-# Quick Reference for Large Pretrained Language Models
-
-## Monolingual Models
-
-
 Organisation | Model | Citation | Architecture | Data | Tokens (B) | Size (B) | Compute | Training Strategy
 ---|---|---|---|---|---|---|---|---
 Google | BERT Large | [Devlin 2019](https://aclanthology.org/N19-1423.pdf) | EncDec | Books, Wikipedia | 3.3 | 0.34 | 64TPUs for 4 days | Mask
@@ -14,12 +9,3 @@ Google | t5 | [Raffel 2020](https://arxiv.org/pdf/1910.10683.pdf) | Enc-Dec | C4
 Google | XLNet | [Yang 2019](https://arxiv.org/pdf/1906.08237.pdf) | Dec | Books, Wikipedia, ClueWeb, CommonCrawl | 33 | 0.4 | 512 TPU v3 chips for 5 days | Mask, Permutation LM
 EleutherAI | GPTNeo | [Black 2021](https://github.com/EleutherAI/gpt-neo) | Dec | The Pile | 420 | 2.7 | ? | AR
 
-## Monolingual Models
-
-
-
-Legend:
-- Type = Auto-Regressive (AR), Masked LM (Mask), Encoder-Decoder (EncDec)
-- Data = Source or domain of training data
-- Tokens = training data's number of tokens, in billions
-- Size = number of parameters in billions
