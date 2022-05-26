@@ -17,7 +17,6 @@ df_multi = df[df['Languages']=="ml"]
 
 df_mono = df_mono.drop(columns=['URL', 'Languages'])
 df_multi = df_multi.drop(columns=['URL', 'Languages'])
-import pdb; pdb.set_trace() 
 
 df_mono.to_csv('interim/lm_stats_mono.csv', index=False)
 df_multi.to_csv('interim/lm_stats_multi.csv', index=False)
