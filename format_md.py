@@ -12,5 +12,11 @@ for col in ['Training Strategy', 'Data']:
     #df['Training Strategy'] = df['Training Strategy'].apply(lambda x: f"<details>{x}</details>" if
     #        len(x.split())>10 else x)
 
-df = df.drop(columns=['URL'])
-df.to_csv('interim/lm_stats.csv', index=False)
+df_mono = df[df['Languages']=="en"]
+df_multi = df[df['Languages']=="ml"]
+
+df_mono.drop(columns=['URL', 'Languages'])
+df_multi.drop(columns=['URL', 'Languages'])
+
+df_mono.to_csv('interim/lm_stats_mono.csv', index=False)
+df_multi.to_csv('interim/lm_stats_multi.csv', index=False)
