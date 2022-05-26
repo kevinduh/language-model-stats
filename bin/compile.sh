@@ -10,4 +10,4 @@ python format_md.py
 csv2md interim/lm_stats_mono.csv > interim/table_mono.md
 csv2md interim/lm_stats_multi.csv > interim/table_multi.md
 
-cat interim/header.md interim/table.md interim/mid.md interim/table_multi.md interim/legend.md > index.md
+cat interim/header.md interim/table_mono.md interim/mid.md interim/table_multi.md interim/legend.md > index.md
