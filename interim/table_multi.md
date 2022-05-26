@@ -7,4 +7,3 @@ Meta | XLMR | [Goyal 2020](https://arxiv.org/pdf/1911.02116.pdf) | Enc-Dec | CC1
 Google | Byt5 | [Xue 2022](https://arxiv.org/pdf/2105.13626.pdf) | Enc-Dec | MC4 | 6.4T | 12.9 | ? | Token free (byte level MT5)
 Google | MT5 | [Xue 2021](https://arxiv.org/pdf/2010.11934.pdf) | Enc-Dec | MC4 | 6.4T | 13 | ? | MLM
 Meta | M2M100 | [Fan 2020](https://arxiv.org/pdf/2010.11125.pdf) | Enc-Dec | CCMatrix, backtranslate | 7.5 parallel sentences; | 15.4 | "hundreds of GPUs" | AR
-
