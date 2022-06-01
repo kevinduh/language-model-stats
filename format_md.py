@@ -6,7 +6,7 @@ import pandas as pd
 df = pd.read_csv('interim/lm_stats.csv')
 df['Citation'] = df.apply(lambda  x: f"[{x['Citation'].strip()}]({x['URL']})", axis=1)
 
-for col in ['Training Strategy', 'Data']:
+for col in ['Training Strategy', 'Data', 'Compute']:
     df[col] = df[col].apply(lambda x: f"<details>{x}</details>" if len(x.split())>10 else x)
 
     #df['Training Strategy'] = df['Training Strategy'].apply(lambda x: f"<details>{x}</details>" if
